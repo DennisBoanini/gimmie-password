@@ -1,0 +1,27 @@
+{
+  "name": "gimmie-password",
+  "version": "1.0.0",
+  "description": "Secure password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate-password": "index.js"
+  },
+  "author": "Dennis A. Boaninin <dennis.boanini01@gmail.com>",
+  "homepage": "https://github.com/DennisBoanini/gimmie-password#readme",
+  "bugs": {
+    "url": "https://github.com/DennisBoanini/gimmie-password/issues",
+    "email": "dennis.boanini01@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DennisBoanini/gimmie-password"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.3.1"
+  }
+}
